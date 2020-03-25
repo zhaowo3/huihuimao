@@ -393,7 +393,14 @@ export const  asyncRouterMap=[
       id:'Privilege1',
       component: () => import('@/views/Privilege/PrivilegeLie/index'),
       meta: {title: '用户管理', icon: 'icon-icon-test13'}
-    }
+    },
+      {
+        path: 'userNew',
+        name: 'userNew',
+        id:'Privilege2',
+        component: () => import('@/views/Privilege/userNew/index'),
+        meta: {title: '用户管理', icon: 'icon-icon-test13'}
+      }
     ]
   },
   {

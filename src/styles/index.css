@@ -183,6 +183,19 @@ h2 {
   clear: both;
   height: 0; }
 
+.newLeftMain .image-slot {
+  height: 100%;
+  width: 100%; }
+  .newLeftMain .image-slot i {
+    float: left; }
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden; }
+
 .app-main {
   height: calc(100% - 72px);
   width: 100%;

@@ -19,6 +19,8 @@ import infiniteScroll from 'vue-infinite-scroll'
 import Qs from 'qs'
 import '@/icons' // icon
 import '@/permission' // permission control
+import './assets/fonts/iconfont.js'
+import './assets/fonts/icon.css'
 // import 'lib-flexible'
 import FastClick from 'fastclick';
 // import Print from 'vue-print-nb'

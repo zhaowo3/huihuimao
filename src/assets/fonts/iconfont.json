@@ -1,10 +1,31 @@
 {
   "id": "1190730",
-  "name": "是",
+  "name": "sw智能仓储图标库",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "13638839",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "13638828",
+      "name": "默认头像",
+      "font_class": "morentouxiang",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "13638626",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
     {
       "icon_id": "13148877",
       "name": "gen",

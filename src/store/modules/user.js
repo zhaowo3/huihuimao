@@ -246,7 +246,9 @@ const user = {
           if(res.code==1){
             const cloneRes=JSON.parse(JSON.stringify(res));
             delete  cloneRes.msg;
+            const { data } = res;
             setAccountToken(res.data.name);
+            commit('SET_TOKEN', data);
             setToken(res.data);
             // localStorage.setItem('tokeng', res.data);
             commit('SET_USERINFO',res.data);
